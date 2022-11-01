@@ -11,6 +11,7 @@ const Principal = () => {
      setEstado(false)
      setReg(true)
      
+
     }
     const validari = () =>{
         setEstado(false)
@@ -91,7 +92,7 @@ const Principal = () => {
     :
      
     reg ?
-    swal("registro")
+    alert("d")
     :
     alert("Ha ocurrido un problema")
          
@@ -103,6 +104,7 @@ const Principal = () => {
 }
     </div>
   )
+
 }
 
 export default Principal
