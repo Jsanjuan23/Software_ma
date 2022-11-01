@@ -1,7 +1,6 @@
 import React from 'react'
+import swal from 'sweetalert'
 import logo from '../medicina.jpg'
-import Login from './Login';
-import Registro from './Registro';
 
 const Principal = () => {
     const [estado,setEstado] = React.useState(true)
@@ -88,11 +87,11 @@ const Principal = () => {
     
     :
     ing ? 
-    <Login/>
+    swal("login")
     :
      
     reg ?
-    <Registro/>
+    swal("registro")
     :
     alert("Ha ocurrido un problema")
          
